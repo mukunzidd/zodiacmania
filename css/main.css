@@ -1,0 +1,58 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  text-align: center;
+  padding: 1em 4em;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 25% auto;
+}
+
+figure {
+  margin: 0;
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+}
+
+article {
+  padding: 3em;
+}
+
+h3 {
+  margin-top: 0;
+  font-size: 3em;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+img {
+  width: 200px;
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+}
+
+@media only screen and (max-width: 644px) {
+  section {
+    grid-template-columns: 1fr;
+  }
+}
