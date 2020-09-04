@@ -1,3 +1,11 @@
+/* GENERAL/SHARED */
 h1 {
   color: red;
 }
+
+/* FORMS */
+form {
+  padding: 0;
+}
+
+/* SIGN IN PAGE */
