@@ -1,0 +1,22 @@
+{
+  "name": "zodiacmania",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:mukunzidd/zodiacmania.git",
+  "author": "Dodo <dmukunzi0@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "devStart": "nodemon --exec babel-node server/server.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.5",
+    "nodemon": "^2.0.4"
+  }
+}
